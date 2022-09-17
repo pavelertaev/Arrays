@@ -41,10 +41,10 @@ public class Main {
         System.out.println("Задание 3");
         int[] arr2 = generateRandomArray();
         int sum1 = 0;
-        int daysMonth = sum1 / 30;
+        float daysMonth = (float) sum1 / 30;
         for(int c =0; c <arr2.length-1 ; c++){
             sum1=sum1+arr2[c];
-            daysMonth=sum1/30;
+            daysMonth= (float) sum1/30;
         }
         System.out.println("Средняя сумма всех трат за месяц составила " + daysMonth + " рублей");
 
